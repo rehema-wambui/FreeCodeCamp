@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Technical Documentation</title>
+	<link rel="stylesheet" href="lab14.css">
+</head>
+<body>
+	<nav id="navbar">
+		<header>HTML Documentation</header>
+		<a class="nav-link" href="#Getting_Started">Getting Started</a>
+		<a class="nav-link" href="#Document_Structure">Document Structure</a>
+		<a class="nav-link" href="#Text_and_Headings">Text and Headings</a>
+		<a class="nav-link" href="#Links_and_Images">Links and Images</a>
+		<a class="nav-link" href="#Lists_and_Code">Lists and Code</a>
+	</nav>
+	<main id="main-doc">
+		<section class="main-section" id="Getting_Started">
+			<header>Getting Started</header>
+			<p>HTML (HyperText Markup Language) gives web content its structure and meaning.</p>
+			<p>Elements are written with tags, and most elements have an opening and a closing tag.</p>
+			<p>A basic paragraph can be written as <code>&lt;p&gt;Hello, web!&lt;/p&gt;</code>.</p>
+		</section>
+		<section class="main-section" id="Document_Structure">
+			<header>Document Structure</header>
+			<p>A complete HTML document begins with a declaration that identifies the HTML version.</p>
+			<p>The <code>&lt;head&gt;</code> contains page metadata, while the <code>&lt;body&gt;</code> contains visible content.</p>
+			<ul>
+				<li>Use <code>&lt;html&gt;</code> as the document root.</li>
+				<li>Set the document language with the <code>lang</code> attribute.</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Text_and_Headings">
+			<header>Text and Headings</header>
+			<p>Headings communicate the hierarchy of a page, from the main title to smaller subtopics.</p>
+			<p>Choose heading levels according to meaning rather than visual size.</p>
+			<p>Use <code>&lt;strong&gt;</code> for important text and <code>&lt;em&gt;</code> for emphasis.</p>
+			<ul>
+				<li><code>&lt;h1&gt;</code> introduces the page's primary topic.</li>
+				<li><code>&lt;p&gt;</code> groups a paragraph of related text.</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Links_and_Images">
+			<header>Links and Images</header>
+			<p>Links connect documents and other resources on the web.</p>
+			<p>An anchor's <code>href</code> attribute specifies its destination.</p>
+			<p>Images should include useful alternative text so their content is available to everyone.</p>
+			<ul>
+				<li>Use descriptive link text that explains where the link leads.</li>
+				<li>Provide an <code>alt</code> attribute for meaningful images.</li>
+			</ul>
+		</section>
+		<section class="main-section" id="Lists_and_Code">
+			<header>Lists and Code</header>
+			<p>Lists organize related items into a clear, readable group.</p>
+			<p>Use an unordered list when item order is not important, or an ordered list when sequence matters.</p>
+			<p>The <code>&lt;code&gt;</code> element marks a short fragment of computer code.</p>
+			<ul>
+				<li>Wrap each list item in an <code>&lt;li&gt;</code> element.</li>
+				<li>Use semantic elements to make documents easier to understand.</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
